@@ -30,6 +30,12 @@ Kullandığınız tüm CSS dosyalarını tek bir dosya altında sıkıştırman�
 <link rel="stylesheet" type="text/css" href="<?php minifyCSS::minify(array('normalize.css', 'style.css')) ?>" />
 ```
 
+Yukarıdaki dahil etmenin ekran çıktısı aşağıdaki gibi olacaktır. Sıkıştırılmış tüm CSS kodları **minifyCSS.min.css** dosyasına yazılacatır.
+
+```php
+<link rel="stylesheet" type="text/css" href="minifyCSS.min.css" />
+```
+
 ## Sonuç
 
 Aşağıdaki gibi bir CSS dosyamız var diyelim. Yorum satırları ve boşluklar ile dolu.
